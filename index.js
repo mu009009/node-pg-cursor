@@ -1,5 +1,5 @@
-var Result = require('pg').Result
-var prepare = require('pg').prepareValue
+var Result = require('./pg').Result
+var prepare = require('./pg').prepareValue
 
 var Cursor = function(text, values) {
   this.text = text
